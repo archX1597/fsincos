@@ -1,5 +1,0 @@
-Command Line: /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/bin/elabcom -logdir simv.daidir/elabcomLog -simvdaidir simv.daidir -lib simv.daidir/work -saveLevel -elab simv.daidir/kdb -simflow -simdir simv.daidir/kdb_libs -topfile simv.daidir/.elabcomTopFile -ssv -ssy -Lf work +disable_message+C00380+C00381 +disable_message+C00388+C00389
-uname(Linux icvm 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024 x86_64)
-[INFO] error/warning message 'C00388' has been suppressed.
-[INFO] error/warning message 'C00389' has been suppressed.
-au time 0.247653 0.184458 0.017556 delta 103059456 103059456 total 264790016 264790016

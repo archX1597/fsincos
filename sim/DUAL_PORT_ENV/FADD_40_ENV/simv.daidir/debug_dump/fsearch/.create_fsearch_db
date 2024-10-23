@@ -1,9 +1,0 @@
-#!/bin/sh -h 
-PYTHONHOME=/export/SoftWare/Synopsys/vcs/T-2022.06/etc/search/pyh
-export PYTHONHOME
-PYTHONPATH=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/pylib27
-export PYTHONPATH
-LD_LIBRARY_PATH=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib:/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/pylib27
-export LD_LIBRARY_PATH
-/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/bin/vcsfind_create_index.exe  -z  "/home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV/FADD_40_ENV/simv.daidir/debug_dump/fsearch/./idents_SSUvFu.xml.gz" -o "/home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV/FADD_40_ENV/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
-\mv "/home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV/FADD_40_ENV/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV/FADD_40_ENV/simv.daidir/debug_dump/fsearch/fsearch.db"
