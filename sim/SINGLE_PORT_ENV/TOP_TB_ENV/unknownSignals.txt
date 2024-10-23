@@ -1,1 +1,0 @@
-/top_tb/u_top/u_stage1/u_pre_MAP/map_code[4:0]
