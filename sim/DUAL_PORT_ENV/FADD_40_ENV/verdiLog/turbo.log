@@ -1,3 +1,0 @@
-Command Line: /usr/synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -i -simflow -simBin ./simv -simDelim +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIRE+COMPWAVE +UVM_TR_RECORD
-uname(Linux mrx 6.5.0-27-generic #28~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 15 10:51:06 UTC 2 x86_64)
-au time 1094.518974 98.072034 37.893011 delta 363995136 363995136 total 733294592 733294592

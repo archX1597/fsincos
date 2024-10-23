@@ -19,37 +19,37 @@ PRODUCT_TIMESTAMP=product_timestamp
 # Path to runtime library
 DEPLIBS=
 VCSUCLI=-lvcsucli
-RUNTIME=-lvcsnew -lsimprofile -luclinative /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/vcs_tls.o $(DEPLIBS) 
+LLVM_FLAGS=
+RUNTIME=-lvcsnew -lsimprofile -luclinative /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcs_tls.o $(DEPLIBS) 
 
-VCS_SAVE_RESTORE_OBJ=/usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+VCS_SAVE_RESTORE_OBJ=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
 
 # Select your favorite compiler
 
 # Linux:
+# Compiler: 
 VCS_CC=gcc
-
 # Internal CC for gen_c flow:
 CC_CG=gcc
-# User overrode default CC: 
-VCS_CC=gcc
 # Loader
 LD=g++
+STDLIB = 
 
 # Strip Flags for target product
 STRIPFLAGS= 
 
-PRE_LDFLAGS=  -no-pie 
-# Loader Flags
-LDFLAGS= -Wl,--no-as-needed -rdynamic  -Wl,-rpath=/usr/synopsys/vcs/O-2018.09-SP2/linux64/lib -L/usr/synopsys/vcs/O-2018.09-SP2/linux64/lib 
+PRE_LDFLAGS= # Loader Flags
+LDFLAGS= -Wl,--no-as-needed -rdynamic  -Wl,-rpath='$$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib -L/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib 
 # Picarchive Flags
-PICLDFLAGS=-Wl,-rpath-link=./ -Wl,-rpath='$$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ -Wl,-rpath='$$ORIGIN'/simv.daidir//scsim.db.dir 
+PICLDFLAGS= -Wl,-rpath-link=./ 
+PIC_LD=ld
 
 # C run time startup
 CRT0=
 # C run time startup
 CRTN=
 # Machine specific libraries
-SYSLIBS=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl
+SYSLIBS=/export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl
 
 # Default defines
 SHELL=/bin/sh
@@ -65,17 +65,23 @@ TMPSPECENV=$(VCSTMPSPECENV)
 CC=$(TMPSPECENV) $(VCS_CC) $(TMPSPECARG)
 
 # C flags for compilation
-CFLAGS=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/usr/synopsys/vcs/O-2018.09-SP2/include   
+CFLAGS=$(STDLIB)-w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/export/SoftWare/Synopsys/vcs/T-2022.06/include   
 
-CFLAGS_O0=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/usr/synopsys/vcs/O-2018.09-SP2/include -O0  -fno-strict-aliasing   
+CFLAGS_O0=-w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/export/SoftWare/Synopsys/vcs/T-2022.06/include -O0  -fno-strict-aliasing -fno-optimize-sibling-calls   
 
-CFLAGS_CG=-w  -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/usr/synopsys/vcs/O-2018.09-SP2/include -O  -fno-strict-aliasing   
+CFLAGS_CG=-w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/export/SoftWare/Synopsys/vcs/T-2022.06/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   
 
+CFLAGS_CG_CLIB=-w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/export/SoftWare/Synopsys/vcs/T-2022.06/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   
+
+CFLAGS_RMAR=-w  -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/export/SoftWare/Synopsys/vcs/T-2022.06/include -O  -fno-strict-aliasing -fno-optimize-sibling-calls   
+
+CFLAGS_CG+=$(STDLIB)
+CFLAGS_CG_CLIB+=$(STDLIB)
+CFLAGS_O0+=$(STDLIB)
 LD_PARTIAL_LOADER=ld
 # Partial linking
 LD_PARTIAL=$(LD_PARTIAL_LOADER) -r -o
-ASFLAGS=
-LIBS=-lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs 
+LIBS=-lvirsim -lerrorinf -lsnpsmalloc -lvfs 
 # Note: if make gives you errors about include, either get gmake, or
 # replace the following line with the contents of the file filelist,
 # EACH TIME IT CHANGES
@@ -96,8 +102,9 @@ clobber : clean
 	rm -f $(PRODUCT) $(PRODUCT_TIMESTAMP) 
 
 picclean : 
-	rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+	rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
 	@rm -f $(PRODUCT).daidir/_[0-9]*_archive_*.so 2>/dev/null
+	@rm -f $(DPI_OBJS)
 
 product_clean_order : 
 	@$(MAKE) -f Makefile --no-print-directory picclean
@@ -106,12 +113,13 @@ product_clean_order :
 product_order : $(PRODUCT)
 
 $(PRODUCT_TIMESTAMP) : product_clean_order
-	-if [ -x $(PRODUCT) ]; then chmod -x $(PRODUCT); fi
-	$(LD) $(CRT0) -o $(PRODUCT) $(PRE_LDFLAGS) $(STRIPFLAGS) $(PCLDFLAGS) $(PICLDFLAGS) $(LDFLAGS) $(OBJS)  $(LIBS)   $(RUNTIME) -Wl,-whole-archive $(VCSUCLI) -Wl,-no-whole-archive     $(LINK_TB) $(DPI_STUB_OBJS) $(PLI_STUB_OBJS)   $(VCS_SAVE_RESTORE_OBJ) $(SYSLIBS) $(CRTN)
+	-if [ -x $(PRODUCT) ]; then chmod a-x $(PRODUCT); fi
+	$(LD) $(CRT0) -o $(PRODUCT) $(LLVM_FLAGS) $(STDLIB) $(PRE_LDFLAGS) $(STRIPFLAGS) $(PCLDFLAGS) $(LDFLAGS) $(PICLDFLAGS) $(OBJS)  $(LIBS)   $(RUNTIME) -Wl,-whole-archive $(VCSMXSAIF) $(VCSUCLI) $(PLILIBS) $(DECLIBS) $(BALIBS) -Wl,-no-whole-archive     $(LINK_TB) $(DPI_STUB_OBJS) $(PLI_STUB_OBJS)   $(VCS_SAVE_RESTORE_OBJ) $(SYSLIBS) $(CRTN)
 	@rm -f csrc[0-9]*.o
+	@rm -f cuarc[0-9]*.o
 	@touch $(PRODUCT_TIMESTAMP)
 	@-if [ -d ./objs ]; then find ./objs -type d -empty -delete; fi
 
-$(PRODUCT) :  $(LD_VERSION_CHECK)  $(OBJS) $(DOTLIBS) $(DPI_STUB_OBJS) $(PLI_STUB_OBJS) $(CMODLIB) /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/libvcsnew.so /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/libsimprofile.so /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/libuclinative.so /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/vcs_tls.o /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/libvcsucli.so  $(VCS_SAVE_RESTORE_OBJ) 
+$(PRODUCT) :  $(LD_VERSION_CHECK)  $(OBJS) $(DOTLIBS) $(DPI_STUB_OBJS) $(PLI_STUB_OBJS) $(CMODLIB) $(SYSC_STUB_LIB)  /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvcsnew.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libsimprofile.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libuclinative.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcs_tls.o /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvcsucli.so  $(VCS_SAVE_RESTORE_OBJ) 
 	@touch $(PRODUCT)
 

@@ -2,1180 +2,310 @@
 # log primitive debug message of FSDB dumping                                         #
 # This is for R&D to analyze when there are issues happening when FSDB dump           #
 #######################################################################################
-ANF: vcsd_get_serial_mode_status('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vcsd_get_serial_mode_status')
-ANF: vcsd_enable_sva_success_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vcsd_enable_sva_success_callback')
-ANF: vcsd_disable_sva_success_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vcsd_disable_sva_success_callback')
-ANF: vcsd_get_power_scope_name('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vcsd_get_power_scope_name')
-ANF: vcsd_begin_no_value_var_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vcsd_begin_no_value_var_info')
-ANF: vcsd_end_no_value_var_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vcsd_end_no_value_var_info')
-ANF: vcsd_remove_xprop_merge_mode_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
-ANF: vhpi_get_cb_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhpi_get_cb_info')
-ANF: vhpi_free_handle('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhpi_free_handle')
-ANF: vhpi_fetch_vcsd_handle('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhpi_fetch_vcsd_handle')
-ANF: vhpi_fetch_vpi_handle('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhpi_fetch_vpi_handle')
-ANF: vhpi_has_verilog_parent('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhpi_has_verilog_parent')
-ANF: vhpi_is_verilog_scope('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhpi_is_verilog_scope')
-ANF: scsd_xprop_is_enabled('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_is_enabled')
-ANF: scsd_xprop_sig_is_promoted('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_sig_is_promoted')
-ANF: scsd_xprop_int_xvalue('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_int_xvalue')
-ANF: scsd_xprop_bool_xvalue('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_bool_xvalue')
-ANF: scsd_xprop_enum_xvalue('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_enum_xvalue')
-ANF: scsd_xprop_register_merge_mode_cb('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
-ANF: scsd_xprop_delete_merge_mode_cb('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
-ANF: scsd_xprop_get_merge_mode('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_xprop_get_merge_mode')
-ANF: scsd_thread_get_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_thread_get_info')
-ANF: scsd_thread_vc_init('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_thread_vc_init')
-ANF: scsd_master_set_delta_sync_cbk('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_master_set_delta_sync_cbk')
-ANF: scsd_fgp_get_fsdb_cores('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: scsd_fgp_get_fsdb_cores')
-ANF: msvEnableDumpingMode('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvEnableDumpingMode')
-ANF: msvGetVersion('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetVersion')
-ANF: msvGetInstProp('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetInstProp')
-ANF: msvIsSpiceEngineReady('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvIsSpiceEngineReady')
-ANF: msvSetAddProbeCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvSetAddProbeCallback')
-ANF: msvGetInstHandle('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetInstHandle')
-ANF: msvGetProbeByInst('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetProbeByInst')
-ANF: msvGetSigHandle('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetSigHandle')
-ANF: msvGetProbeBySig('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetProbeBySig')
-ANF: msvGetProbeInfo('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetProbeInfo')
-ANF: msvRelease('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvRelease')
-ANF: msvSetVcCallbackFunc('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvSetVcCallbackFunc')
-ANF: msvCheckVcCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvCheckVcCallback')
-ANF: msvAddVcCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvAddVcCallback')
-ANF: msvRemoveVcCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvRemoveVcCallback')
-ANF: msvGetLatestValue('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetLatestValue')
-ANF: msvSetEndofSimCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvSetEndofSimCallback')
-ANF: msvIgnoredProbe('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvIgnoredProbe')
-ANF: msvGetThruNetInfo('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetThruNetInfo')
-ANF: msvFreeThruNetInfo('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvFreeThruNetInfo')
-ANF: PI_ace_get_output_time_unit('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: PI_ace_get_output_time_unit')
-ANF: PI_ace_sim_sync('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: PI_ace_sim_sync')
-ANF: msvGetRereadInitFile('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetRereadInitFile')
-ANF: msvSetBeforeRereadCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvSetBeforeRereadCallback')
-ANF: msvSetAfterRereadCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvSetAfterRereadCallback')
-ANF: msvSetForceCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvSetForceCallback')
-ANF: msvSetReleaseCallback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvSetReleaseCallback')
-ANF: msvGetForceStatus('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: msvGetForceStatus')
-ANF: vhdi_dt_get_type('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_dt_get_type')
-ANF: vhdi_dt_get_key('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_dt_get_key')
-ANF: vhdi_dt_get_vhdl_enum_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
-ANF: vhdi_dt_get_vhdl_physical_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
-ANF: vhdi_dt_get_vhdl_array_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
-ANF: vhdi_dt_get_vhdl_record_info('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
-ANF: vhdi_def_traverse_module('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_def_traverse_module')
-ANF: vhdi_def_traverse_scope('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_def_traverse_scope')
-ANF: vhdi_def_traverse_variable('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_def_traverse_variable')
-ANF: vhdi_def_get_module_id_by_vhpi('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
-ANF: vhdi_def_get_handle_by_module_id('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_def_get_handle_by_module_id')
-ANF: vhdi_def_get_variable_info_by_vhpi('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
-ANF: vhdi_def_free('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_def_free')
-ANF: vhdi_ist_traverse_scope('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_traverse_scope')
-ANF: vhdi_ist_traverse_variable('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_traverse_variable')
-ANF: vhdi_ist_convert_by_vhpi('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_convert_by_vhpi')
-ANF: vhdi_ist_clone('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_clone')
-ANF: vhdi_ist_free('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_free')
-ANF: vhdi_ist_hash_key('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_hash_key')
-ANF: vhdi_ist_compare('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_compare')
-ANF: vhdi_ist_get_value_addr('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_get_value_addr')
-ANF: vhdi_set_scsd_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_set_scsd_callback')
-ANF: vhdi_cbk_set_force_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_cbk_set_force_callback')
-ANF: vhdi_trigger_init_force('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_trigger_init_force')
-ANF: vhdi_ist_check_scsd_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_check_scsd_callback')
-ANF: vhdi_ist_add_scsd_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_add_scsd_callback')
-ANF: vhdi_ist_remove_scsd_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_remove_scsd_callback')
-ANF: vhdi_ist_get_scsd_user_data('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_get_scsd_user_data')
-ANF: vhdi_add_time_change_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_add_time_change_callback')
-ANF: vhdi_get_real_value_by_value_addr('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_get_real_value_by_value_addr')
-ANF: vhdi_get_64_value_by_value_addr('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_get_64_value_by_value_addr')
-ANF: vhdi_xprop_inst_is_promoted('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_xprop_inst_is_promoted')
-ANF: vdi_ist_convert_by_vhdi('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vdi_ist_convert_by_vhdi')
-ANF: vhdi_ist_get_module_id('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_ist_get_module_id')
-ANF: vhdi_refine_foreign_scope_type('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_refine_foreign_scope_type')
-ANF: vhdi_flush_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_flush_callback')
-ANF: vhdi_set_orig_name('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_set_orig_name')
-ANF: vhdi_set_dump_pt('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_set_dump_pt')
-ANF: vhdi_get_fsdb_option('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_get_fsdb_option')
-ANF: vhdi_fgp_get_mode('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_fgp_get_mode')
-ANF: vhdi_node_register_composite_var('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_node_register_composite_var')
-ANF: vhdi_node_analysis('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_node_analysis')
-ANF: vhdi_node_id('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_node_id')
-ANF: vhdi_node_ist_check_scsd_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
-ANF: vhdi_node_ist_add_scsd_callback('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
-ANF: vhdi_node_ist_get_value_addr('/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vcsd_get_serial_mode_status('./simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('./simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('./simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('./simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_begin_no_value_var_info('./simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('./simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('./simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('./simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('./simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('./simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('./simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('./simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('./simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('./simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('./simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('./simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('./simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('./simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('./simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('./simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('./simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('./simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('./simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('./simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('./simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: scsd_fgp_get_is_cpu_affinity_disabled('./simv: undefined symbol: scsd_fgp_get_is_cpu_affinity_disabled')
+ANF: vhdi_dt_get_type('./simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('./simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('./simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('./simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('./simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('./simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_def_traverse_module('./simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('./simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('./simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('./simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('./simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('./simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('./simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('./simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('./simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('./simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('./simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('./simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('./simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('./simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('./simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('./simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('./simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('./simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('./simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('./simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('./simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('./simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('./simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('./simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('./simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('./simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('./simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('./simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('./simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('./simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('./simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_get_fsdb_option('./simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('./simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('./simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('./simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('./simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('./simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('./simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('./simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('./simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('./simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('./simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('./simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('./simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('./simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('./simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
 VCS compile option:
- option[0]: /media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv
- option[1]: +UVM_VERDI_TRACE=UVM_AWARE+RAL+HIRE+COMPWAVE
- option[2]: +UVM_TR_RECORD
- option[3]: -sml=verdi
- option[4]: +fsdb+gate=off
- option[5]: -ucli2Proc
- option[6]: -ucli
- option[7]: -l
- option[8]: /media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/verdiLog/sim.log
- option[9]: /usr/synopsys/vcs/O-2018.09-SP2/linux64/bin/vcs1
- option[10]: -Mcc=gcc
- option[11]: -Mcplusplus=g++
- option[12]: -Masflags=
- option[13]: -Mcfl= -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/usr/synopsys/vcs/O-2018.09-SP2/include 
- option[14]: -Mxcflags= -pipe -DVCS -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/usr/synopsys/vcs/O-2018.09-SP2/include
- option[15]: -Mldflags= -Wl,--no-as-needed -rdynamic 
- option[16]: -Mout=simv
- option[17]: -Mamsrun=
- option[18]: -Mvcsaceobjs=
- option[19]: -Mobjects= /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/libvfs.so 
- option[20]: -Mexternalobj=
- option[21]: -Msaverestoreobj=/usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
- option[22]: -Mcrt0=
- option[23]: -Mcrtn=
- option[24]: -Mcsrc=/usr/synopsys/vcs/O-2018.09-SP2/etc/uvm-1.2/dpi/uvm_dpi.cc 
- option[25]: -Msyslibs=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl 
- option[26]: -l
- option[27]: com.log
- option[28]: +define+UVM_VCS_RECORD
- option[29]: +incdir+/usr/synopsys/vcs/O-2018.09-SP2/etc/uvm-1.2/vcs
- option[30]: /usr/synopsys/vcs/O-2018.09-SP2/etc/uvm-1.2/uvm_pkg.sv
- option[31]: /usr/synopsys/vcs/O-2018.09-SP2/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv
- option[32]: -full64
- option[33]: -fsdb
- option[34]: -P
- option[35]: /usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/verdi.tab
- option[36]: -debug_acc+all
- option[37]: +vpi
- option[38]: +vcsd1
- option[39]: +itf+/usr/synopsys/vcs/O-2018.09-SP2/linux64/lib/vcsdp_lite.tab
- option[40]: -kdb
- option[41]: -Xufe=2steps
- option[42]: -timescale=1ns/1ps
- option[43]: -ntb_opts
- option[44]: uvm-1.2
- option[45]: +incdir+/usr/synopsys/vcs/O-2018.09-SP2/etc/uvm-1.2/
- option[46]: -picarchive
- option[47]: -debug_acc+fsdb
- option[48]: -sverilog
- option[49]: -sverilog
- option[50]: -gen_obj
+ option[0]: ./simv
+ option[1]: -l
+ option[2]: sim.log
+ option[3]: /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/bin/vcs1
+ option[4]: -Mcc=gcc
+ option[5]: -Mcplusplus=g++
+ option[6]: -Masflags=
+ option[7]: -Mcfl= -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -O -I/export/SoftWare/Synopsys/vcs/T-2022.06/include 
+ option[8]: -Mxllcflags=
+ option[9]: -Mxcflags= -pipe -DVCSMX -DUVM_DPI_DO_TYPE_CHECK -fPIC -I/export/SoftWare/Synopsys/vcs/T-2022.06/include
+ option[10]: -Mldflags= -Wl,--no-as-needed -rdynamic 
+ option[11]: -Mout=simv
+ option[12]: -Mamsrun=
+ option[13]: -Mvcsaceobjs=
+ option[14]: -Mobjects= /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvirsim.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/liberrorinf.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libsnpsmalloc.so /export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/libvfs.so 
+ option[15]: -Mexternalobj=
+ option[16]: -Msaverestoreobj=/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcs_save_restore_new.o
+ option[17]: -Mcrt0=
+ option[18]: -Mcrtn=
+ option[19]: -Mcsrc=/export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/dpi/uvm_dpi.cc /export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/verdi/dpi/uvm_verdi_dpi.cpp 
+ option[20]: -Msyslibs=/export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[21]: -l
+ option[22]: com.log
+ option[23]: +define+UVM_VERDI_VIF_RECORD
+ option[24]: +define+UVM_VCS_RECORD
+ option[25]: +incdir+/export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/vcs
+ option[26]: /export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/uvm_pkg.sv
+ option[27]: /export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/vcs/uvm_custom_install_vcs_recorder.sv
+ option[28]: +incdir+/export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/verdi
+ option[29]: /export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/verdi/uvm_custom_install_verdi_recorder.sv
+ option[30]: -full64
+ option[31]: -debug_access
+ option[32]: +vpi
+ option[33]: +vcsd1
+ option[34]: +itf+/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/lib/vcsdp_lite.tab
+ option[35]: -debug_acc+all
+ option[36]: -kdb
+ option[37]: -Xufe=2steps
+ option[38]: -timescale=1ns/1ps
+ option[39]: -ntb_opts
+ option[40]: uvm-1.2
+ option[41]: +incdir+/export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/
+ option[42]: -picarchive
+ option[43]: -P
+ option[44]: /export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/verdi.tab
+ option[45]: -fsdb
+ option[46]: -sverilog
+ option[47]: -sverilog
+ option[48]: -gen_obj
+ option[49]: -f
+ option[50]: rtl_list.f
  option[51]: -f
- option[52]: rtl_list.f
- option[53]: -f
- option[54]: dv_env_list.f
- option[55]: top_tb.sv
- option[56]: -load
- option[57]: /usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
- option[58]: timescale=1ns/1ps
-Chronologic Simulation VCS Release O-2018.09-SP2_Full64
-Linux 6.5.0-27-generic #28~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar 15 10:51:06 UTC 2 x86_64
-CPU cores: 16
+ option[52]: dv_env_list.f
+ option[53]: top_tb.sv
+ option[54]: -load
+ option[55]: /export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+ option[56]: timescale=1ns/1ps
+Chronologic Simulation VCS Release T-2022.06_Full64
+Linux 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024 x86_64
+CPU cores: 22
 Limit information:
 ======================================
 cputime		unlimited
 filesize		unlimited
 datasize		unlimited
-stacksize		8250 kbytes
+stacksize		8309 kbytes
 coredumpsize		0 kbytes
 memoryuse		unlimited
 vmemoryuse		unlimited
 descriptors		1048576
-memorylocked		1769784 kbytes
-maxproc		55006
+memorylocked		65536 kbytes
+maxproc		63165
 ======================================
 (Special)Runtime environment variables:
 
 Runtime environment variables:
-LC_HOME=/usr/synopsys/lc/O-2018.06-SP1
+WSLENV=WT_SESSION:WT_PROFILE_ID:
 SHELL=/usr/bin/zsh
+_=/usr/bin/make
+_P9K_SSH_TTY=/dev/pts/12
+HISTCONTROL=ignoredups
+SNPSLMD_LICENSE_FILE=27000@icvm
+P9K_SSH=0
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+PATH=/home/icvm/.pyenv/plugins/pyenv-virtualenv/shims:/home/icvm/.pyenv/shims:/home/icvm/.pyenv/bin:/export/SoftWare/Synopsys/verdi/T-2022.06/bin:/export/SoftWare/Synopsys/verdi/T-2022.06/platform/LINUX64/bin:/export/SoftWare/Synopsys/verdi/T-2022.06/platform/LINUX64AMD/bin:/export/SoftWare/Synopsys/verdi/T-2022.06/platform/linux64/bin:/export/SoftWare/Synopsys/vc_static/T-2022.06/bin:/export/SoftWare/Synopsys/vcs/T-2022.06/bin:/export/SoftWare/Synopsys/vcs/T-2022.06/amd64/bin:/export/SoftWare/Synopsys/vcs/T-2022.06/linux64/bin:/export/SoftWare/Synopsys/syn/T-2022.03-SP2/bin:/export/SoftWare/Synopsys/syn/T-2022.03-SP2/amd64/bin:/export/SoftWare/Synopsys/spyglass/T-2022.06-1/SPYGLASS_HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32/WBEM:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/dotnet/:/mnt/c/Users/10477/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/10477/mingw64/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Pandoc/:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/10477/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/10477/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/questasim64_2024.1/win64:/mnt/c/Users/10477/mingw64/bin:/mnt/c/Users/10477/AppData/Local/Microsoft/WindowsApps:/home/icvm/bin
+LM_LICENSE_FILE=27000@icvm
 LSCOLORS=Gxfxcxdxbxegedabagacad
-SESSION_MANAGER=local/mrx:@/tmp/.ICE-unix/1668,unix/mrx:/tmp/.ICE-unix/1668
-QT_ACCESSIBILITY=1
-COLORTERM=truecolor
-VCS_ARCH_OVERRIDE=linux
-SSH_AGENT_LAUNCHER=gnome-keyring
-LESS=-R
-XDG_MENU_PREFIX=gnome-
-GNOME_DESKTOP_SESSION_ID=this-is-deprecated
-VCS_HOME=/usr/synopsys/vcs/O-2018.09-SP2
-LANGUAGE=en_GB:en
-SPYGLASS_HOME=/usr/synopsys/spyglass/SPYGLASS2017.12-SP2/SPYGLASS_HOME
-MAKE_TERMOUT=/dev/pts/8
-SPS_RGB_PATH=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/etc/rgb
-LC_ADDRESS=zh_CN.UTF-8
-GNOME_SHELL_SESSION_MODE=ubuntu
-LC_NAME=zh_CN.UTF-8
-SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
-XMODIFIERS=@im=none
-VERDI_HOME=/usr/synopsys/verdi/Verdi_O-2018.09-SP2
-DESKTOP_SESSION=ubuntu
-LC_MONETARY=zh_CN.UTF-8
-PT_HOME=/usr/synopsys/pts/O-2018.06-SP1
-GTK_MODULES=gail:atk-bridge
-DBUS_STARTER_BUS_TYPE=session
-PWD=/home/mrx/Desktop/Tri_f/sim/DUAL_PORT_ENV/FADD_40_ENV
-XDG_SESSION_DESKTOP=ubuntu
-LOGNAME=mrx
-XDG_SESSION_TYPE=wayland
-SYSTEMD_EXEC_PID=1668
-XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.ZE4WL2
-SPS_FONT_PATH=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/font
-DC_HOME=/usr/synopsys/syn/O-2018.06-SP1
-SCL_HOME=/usr/synopsys/scl/2018.06
-XNLSPATH=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/etc/access/nls
-HOME=/home/mrx
-USERNAME=mrx
-LD_NOVERSION=1
-LANG=C
-LC_PAPER=zh_CN.UTF-8
-LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
-XDG_CURRENT_DESKTOP=ubuntu:GNOME
-VTE_VERSION=6800
-WAYLAND_DISPLAY=wayland-0
-GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/8573dba9_f476_49aa_ac45_151917051f70
-VERDI_ORIGNAL_LD_LIBRARY_PATH=:/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUX64:/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/IUS/LINUX64/boot
-MFLAGS=
-DVT_HOME=/opt/dvt_eclipse_kit-22.1.16-e419_linux64/dvt_eclipse
-VCS_EXEC_DONE=1
-SPS_XFONT_PATH=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/XFont
-NOVASHLPPATH=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/doc
-GNOME_SETUP_DISPLAY=:1
-MAKEFLAGS=
-XDG_SESSION_CLASS=user
-SNPSLMD_LICENSE_FILE=27000@mrx
-TERM=xterm-256color
-LC_IDENTIFICATION=zh_CN.UTF-8
-ZSH=/home/mrx/.oh-my-zsh
-USER=mrx
-MGLS_LICENSE_FILE=/usr/mentor/questasim/license.dat
-MAKE_TERMERR=/dev/pts/8
-GNOME_TERMINAL_SERVICE=:1.179
+XDG_RUNTIME_DIR=/run/user/1000/
+SNP_HOME=/export/SoftWare/Synopsys
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
 DISPLAY=:0
-VCS_PATHMAP_PRELOAD_DONE=1
+HOME=/home/icvm
+WSL2_GUI_APPS_ENABLED=1
+VCS_HOME=/export/SoftWare/Synopsys/vcs/T-2022.06
+PWD=/home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV/FADD_40_ENV
+WSL_INTEROP=/run/WSL/176021_interop
+PULSE_SERVER=unix:/mnt/wslg/PulseServer
+WT_SESSION=c220926d-5baa-409f-8534-321974419856
+VERDI_HOME=/export/SoftWare/Synopsys/verdi/T-2022.06
+PYENV_SHELL=zsh
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+LD_LIBRARY_PATH=/export/SoftWare/Synopsys/vcs/T-2022.06/amd64/lib:
+LOGNAME=icvm
+TERM=xterm-256color
+ZSH=/home/icvm/.oh-my-zsh
+HOSTNAME=icvm
+VCS_TARGET_ARCH=amd64
+VCS_ARCH_OVERRIDE=linux
 SHLVL=1
+USER=icvm
+NAME=icvm
+LESS=-R
+DEBUGINFOD_URLS=https://debuginfod.centos.org/ 
+OLDPWD=/home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV
+VC_STATIC_HOME=/export/SoftWare/Synopsys/vc_static/T-2022.06
+MAKEFLAGS=
+MFLAGS=
+SYN_HOME=/export/SoftWare/Synopsys/syn/T-2022.03-SP2
+MAIL=/var/spool/mail/icvm
+SPYGLASS_HOME=/export/SoftWare/Synopsys/spyglass/T-2022.06-1/SPYGLASS_HOME
+MAKE_TERMOUT=/dev/pts/12
+WT_PROFILE_ID={5b36e8e9-a062-5b81-907f-82c3b802782e}
+DVT_LICENSE_FILE=/home/icvm/license/dvt_JuntaoXia_Academic_20240911_FlexLMLocal.license
 PAGER=less
-QUESTASIM_HOME=/usr/mentor/questasim
+HOSTTYPE=x86_64
+P9K_TTY=old
+HISTSIZE=50000
+WAYLAND_DISPLAY=wayland-0
+PYENV_VIRTUALENV_INIT=1
+MAKE_TERMERR=/dev/pts/12
+LANG=en_US.UTF-8
+which_declare=typeset -f
+_P9K_TTY=/dev/pts/12
+WSL_DISTRO_NAME=AlmaLinux-8
 MAKELEVEL=1
-LC_TELEPHONE=zh_CN.UTF-8
-QT_IM_MODULE=ibus
-LC_MEASUREMENT=zh_CN.UTF-8
-NOVAS_SYNC_MOTIF_DISP=
-DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=98f185e7a920a1f4e481177b661959c1
-PAPERSIZE=a4
-LM_LICENSE_FILE=/usr/mentor/questasim/license.dat:
-LD_LIBRARY_PATH=:/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUX64:/usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/IUS/LINUX64/boot
+VCS_PATHMAP_PRELOAD_DONE=1
 VCS_STACK_EXEC=true
-XDG_RUNTIME_DIR=/run/user/1000
-ICC2_HOME=/usr/synopsys/icc2/O-2018.06-SP1
-LC_TIME=zh_CN.UTF-8
-SYS_PROG_NAME=verdi
+VCS_EXEC_DONE=1
 LC_ALL=C
-DVE_HOME=/usr/synopsys/vcs/O-2018.09-SP2
-XDG_DATA_DIRS=/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-MATLAB_PATH=/home/mrx/Matlab
-VCS_HEAP_EXEC=true
-PATH=/bin:/home/mrx/.local/bin:/usr/mentor/questasim/RUVM_2021.2:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mrx/Matlab/bin:/usr/synopsys/pts/O-2018.06-SP1/bin:/usr/synopsys/icc2/O-2018.06-SP1/bin:/usr/synopsys/syn/O-2018.06-SP1/bin:/usr/synopsys/lc/O-2018.06-SP1/bin:/usr/synopsys/spyglass/SPYGLASS2017.12-SP2/SPYGLASS_HOME/bin:/usr/synopsys/vcs/O-2018.09-SP2/gui/dve/bin:/usr/synopsys/vcs/O-2018.09-SP2/bin:/usr/synopsys/verdi/Verdi_O-2018.09-SP2/bin:/usr/synopsys/scl/2018.06/linux64/bin:/usr/mentor/questasim/linux_x86_64
-GDMSESSION=ubuntu
-DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=98f185e7a920a1f4e481177b661959c1
-QT_PLUGIN_PATH=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/lib/Qt/plugins
-SYS_INST_DIR=/usr/synopsys/verdi/Verdi_O-2018.09-SP2
-LC_NUMERIC=zh_CN.UTF-8
-OLDPWD=/home/mrx/Desktop/Tri_f/sim/DUAL_PORT_ENV/FADD_40_ENV
-PS_HWPC=OFF
-NOVAS_LC_ALL=C
-NOVAS_SIGNAL_BASE_EXTRACTION=1
-SIGNAL_BASE_EXTRACTION=1
-NOVAS_VERDI_SVTB_BETA=1
-VERDI_SVTB_BETA=1
-NOVAS_VERDI_SVTB_ALPHA=1
-VERDI_SVTB_ALPHA=1
-NOVAS_VERDI_TB_HT=1
-VERDI_TB_HT=1
-NOVAS_WAVE_REDRAW_ALLVC=1
-WAVE_REDRAW_ALLVC=1
-NOVAS_TCL_LIBRARY=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/etc/access/tcl86_library
-TCL_LIBRARY=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/etc/access/tcl86_library
-XKEYSYMDB=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/etc/access/XKeysymDB2.1
-NOVAS_SIGNAL_BASED_BA=0
-SIGNAL_BASED_BA=0
-SNPS_SIM_DEFAULT_GUI=verdi
-FSDB_FILE=/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/inter.fsdb
-VCS_UCLI_STDIN_BLOCKING=1
-FSDB_VHDL_PROTECTED=1
-FSDB_RD_IR_ENABLE=1
-FSDB_SVA_STATUS=1
-SYNOPSYS_SIM=/usr/synopsys/vcs/O-2018.09-SP2
-DISABLE_LIBRARY_MAP_CHECK=1
-XLOCALEDIR=/usr/synopsys/verdi/Verdi_O-2018.09-SP2/etc/access/locale
-VCS_STOP_SAFE=1
-DVE_SIM_SELECT_LOOP=on
+DVE=/export/SoftWare/Synopsys/vcs/T-2022.06/gui/dve
+SPECMAN_OUTPUT_TO_TTY=1
+FLEXLM_BORROWFILE=/home/icvm/.icvm-borrow.txt
 Runtime command line arguments:
-argv[0]=/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv
-argv[1]=+UVM_VERDI_TRACE=UVM_AWARE+RAL+HIRE+COMPWAVE
-argv[2]=+UVM_TR_RECORD
-argv[3]=-sml=verdi
-argv[4]=+fsdb+gate=off
-argv[5]=-ucli2Proc
-argv[6]=-ucli
-argv[7]=-l
-argv[8]=/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/verdiLog/sim.log
-315 profile - 100
-          CPU/Mem usage: 0.030 sys,  0.050 user,  208.27M mem
-316 Fri Apr 12 20:25:51 2024
-317 pliAppInit
-318 ndpGetenv(FSDB_FILE): /media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/inter.fsdb
-319 ndpGetenv(FSDB_SVA_STATUS): 1
-320 ndpGetenv(FSDB_VHDL_PROTECTED): 1
-321 FSDB_GATE & FSDB_RTL is disabled.
-322 Enable Parallel Dumping.
-323 pliAppMiscSet: New Sim Round
-324 pliEntryInit
-325 LIBSSCORE=found /usr/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/lib/LINUXAMD64/libsscore_vcs201809.so through $NOVAS_HOME setting.
-326 FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
-327 (C) 1996 - 2019 by Synopsys, Inc.
-328 sps_tcl_fsdbDumpfile_main at 0
-329 argv[0]: /media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/inter.fsdb
-330 *Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
-331 *Verdi* : Create FSDB file '/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/inter.fsdb'
-332 compile option from '/media/mrx/share_space/TRI_ANGLE/sim/DUAL_PORT_ENV/FADD_40_ENV/simv.daidir/vcs_rebuild'.
-333   "vcs '-full64' '-fsdb' '-sverilog' '-debug_acc+all' '-kdb' '-timescale=1ns/1ps' '-l' 'com.log' '-LDFLAGS' '-Wl,--no-as-needed' '-sverilog' '-ntb_opts' 'uvm-1.2' '-f' 'rtl_list.f' '-f' 'dv_env_list.f' 'top_tb.sv' 2>&1"
-334 sps_tcl_fsdbDumpflush_vd_main
-335 *Verdi* : Flush all FSDB Files at 0 ps.
-336 FSDB_VCS_ENABLE_FAST_VC is enable
-337 sps_tcl_fsdbDumpvars_vd_main
-338 argv[0]: 1
-339 argv[1]: top_tb.u_FADD_N40.i_sign_a
-340 argv[2]: +all
-341 argv[3]: +trace_process
-342 [spi_vcs_vd_ppi_create_root]: no upf option
-343 FSDB dumper cannot dump UPF related power signal ($power_tree): no ppiPowerNetwork.
-344 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.i_sign_a).
-345 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  317.91M mem
-                   incr: 0.000 sys,  0.000 user,  2.24M mem
-                   accu: 0.000 sys,  0.000 user,  2.24M mem
-              accu incr: 0.000 sys,  0.000 user,  2.24M mem
+argv[0]=./simv
+argv[1]=-l
+argv[2]=sim.log
+230 profile - 100
+          CPU/Mem usage: 0.020 sys,  0.200 user,  317.00M mem
+231 Elapsed time:    0:00:00    Thu Oct 24 00:34:42 2024
+232 User CPU time used: 0 seconds
+233 System CPU time used: 0 seconds
+234 pliAppInit
+235 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+236 FSDB_GATE is set.
+237 FSDB_RTL is set.
+238 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+239 Enable Parallel Dumping.
+240 pliAppMiscSet: New Sim Round
+241 pliEntryInit
+242 LIBSSCORE=found /export/SoftWare/Synopsys/verdi/T-2022.06/share/PLI/lib/LINUXAMD64/libsscore_vcs202206.so through $NOVAS_HOME setting.
+243 FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+244 (C) 1996 - 2022 by Synopsys, Inc.
+245 sps_call_fsdbDumpfile_main at 0 : top_tb.sv(51)
+246 argv[0]: (tb.fsdb)
+247 *Verdi* : Create FSDB file 'tb.fsdb'
+248 [spi_vcs_vd_ppi_create_root]: no upf option
+249 compile option from '/home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV/FADD_40_ENV/simv.daidir/vcs_rebuild'.
+250   "vcs '-full64' '-debug_access' '-sverilog' '-debug_acc+all' '-kdb' '-timescale=1ns/1ps' '-l' 'com.log' '-LDFLAGS' '-Wl,--no-as-needed' '-sverilog' '-ntb_opts' 'uvm-1.2' '-f' 'rtl_list.f' '-f' 'dv_env_list.f' 'top_tb.sv' 2>&1"
+251 DVDI_is_vir_unload_enabled is enable
+252 FSDB_VCS_ENABLE_NATIVE_VC is enable
+253 sps_call_fsdbDumpvars_vd_main at 0 : top_tb.sv(52)
+254 argv[0]: (0)
+255 *Verdi* : Begin traversing the scopes, layer (0).
+256 *Verdi* : End of traversing.
+257 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.030 sys,  0.230 user,  418.02M mem
+                   incr: 0.000 sys,  0.030 user,  9.33M mem
+                   accu: 0.000 sys,  0.030 user,  9.33M mem
+              accu incr: 0.000 sys,  0.030 user,  9.33M mem
 
-          Count usage: 1 var,  1 idcode,  1 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-346 Fri Apr 12 20:25:51 2024
-347 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
+          Count usage: 890 var,  941 idcode,  519 callback
+                 incr: 890 var,  941 idcode,  519 callback
+                 accu: 890 var,  941 idcode,  519 callback
+            accu incr: 890 var,  941 idcode,  519 callback
+258 Elapsed time:    0:00:00    Thu Oct 24 00:34:42 2024
+259 User CPU time used: 0 seconds
+260 System CPU time used: 0 seconds
+261 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.030 sys,  0.230 user,  419.07M mem
                    incr: 0.000 sys,  0.000 user,  1.05M mem
-                   accu: 0.000 sys,  0.000 user,  3.30M mem
+                   accu: 0.000 sys,  0.030 user,  10.39M mem
               accu incr: 0.000 sys,  0.000 user,  1.05M mem
 
-          Count usage: 1 var,  1 idcode,  1 callback
+          Count usage: 890 var,  941 idcode,  519 callback
                  incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
+                 accu: 890 var,  941 idcode,  519 callback
             accu incr: 0 var,  0 idcode,  0 callback
-348 Fri Apr 12 20:25:51 2024
-349 sps_tcl_fsdbDumpvars_vd_main
-350 argv[0]: 1
-351 argv[1]: top_tb.u_FADD_N40.i_exp_a
-352 argv[2]: +all
-353 argv[3]: +trace_process
-354 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.i_exp_a).
-355 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 2 var,  2 idcode,  2 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-356 Fri Apr 12 20:25:51 2024
-357 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 2 var,  2 idcode,  2 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-358 Fri Apr 12 20:25:51 2024
-359 sps_tcl_fsdbDumpvars_vd_main
-360 argv[0]: 1
-361 argv[1]: top_tb.u_FADD_N40.i_frac_a
-362 argv[2]: +all
-363 argv[3]: +trace_process
-364 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.i_frac_a).
-365 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 3 var,  3 idcode,  3 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-366 Fri Apr 12 20:25:51 2024
-367 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 3 var,  3 idcode,  3 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-368 Fri Apr 12 20:25:51 2024
-369 sps_tcl_fsdbDumpvars_vd_main
-370 argv[0]: 1
-371 argv[1]: top_tb.u_FADD_N40.i_sign_b
-372 argv[2]: +all
-373 argv[3]: +trace_process
-374 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.i_sign_b).
-375 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 4 var,  4 idcode,  4 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-376 Fri Apr 12 20:25:51 2024
-377 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 4 var,  4 idcode,  4 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-378 Fri Apr 12 20:25:51 2024
-379 sps_tcl_fsdbDumpvars_vd_main
-380 argv[0]: 1
-381 argv[1]: top_tb.u_FADD_N40.i_exp_b
-382 argv[2]: +all
-383 argv[3]: +trace_process
-384 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.i_exp_b).
-385 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 5 var,  5 idcode,  5 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-386 Fri Apr 12 20:25:51 2024
-387 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 5 var,  5 idcode,  5 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-388 Fri Apr 12 20:25:51 2024
-389 sps_tcl_fsdbDumpvars_vd_main
-390 argv[0]: 1
-391 argv[1]: top_tb.u_FADD_N40.i_frac_b
-392 argv[2]: +all
-393 argv[3]: +trace_process
-394 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.i_frac_b).
-395 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 6 var,  6 idcode,  6 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-396 Fri Apr 12 20:25:51 2024
-397 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  318.96M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 6 var,  6 idcode,  6 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-398 Fri Apr 12 20:25:51 2024
-399 sps_tcl_fsdbDumpvars_vd_main
-400 argv[0]: 1
-401 argv[1]: top_tb.u_FADD_N40.o_sign_c
-402 argv[2]: +all
-403 argv[3]: +trace_process
-404 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.o_sign_c).
-405 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.17M mem
-                   accu: 0.000 sys,  0.000 user,  0.17M mem
-              accu incr: 0.000 sys,  0.000 user,  0.17M mem
-
-          Count usage: 7 var,  8 idcode,  7 callback
-                 incr: 1 var,  2 idcode,  1 callback
-                 accu: 1 var,  2 idcode,  1 callback
-            accu incr: 1 var,  2 idcode,  1 callback
-406 Fri Apr 12 20:25:51 2024
-407 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.17M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 7 var,  8 idcode,  7 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  2 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-408 Fri Apr 12 20:25:51 2024
-409 sps_tcl_fsdbDumpvars_vd_main
-410 argv[0]: 1
-411 argv[1]: top_tb.u_FADD_N40.o_exp_c
-412 argv[2]: +all
-413 argv[3]: +trace_process
-414 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.o_exp_c).
-415 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 8 var,  9 idcode,  8 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-416 Fri Apr 12 20:25:51 2024
-417 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 8 var,  9 idcode,  8 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-418 Fri Apr 12 20:25:52 2024
-419 sps_tcl_fsdbDumpvars_vd_main
-420 argv[0]: 1
-421 argv[1]: top_tb.u_FADD_N40.o_frac_c
-422 argv[2]: +all
-423 argv[3]: +trace_process
-424 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.o_frac_c).
-425 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 9 var,  10 idcode,  9 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-426 Fri Apr 12 20:25:52 2024
-427 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 9 var,  10 idcode,  9 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-428 Fri Apr 12 20:25:52 2024
-429 sps_tcl_fsdbDumpvars_vd_main
-430 argv[0]: 1
-431 argv[1]: top_tb.u_FADD_N40.FRAC_WIDTH
-432 argv[2]: +all
-433 argv[3]: +trace_process
-434 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.FRAC_WIDTH).
-435 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 10 var,  11 idcode,  9 callback
-                 incr: 1 var,  1 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  0 callback
-            accu incr: 1 var,  1 idcode,  0 callback
-436 Fri Apr 12 20:25:52 2024
-437 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 10 var,  11 idcode,  9 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  0 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-438 Fri Apr 12 20:25:52 2024
-439 sps_tcl_fsdbDumpvars_vd_main
-440 argv[0]: 1
-441 argv[1]: top_tb.u_FADD_N40.EXP_WIDTH
-442 argv[2]: +all
-443 argv[3]: +trace_process
-444 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.EXP_WIDTH).
-445 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 11 var,  12 idcode,  9 callback
-                 incr: 1 var,  1 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  0 callback
-            accu incr: 1 var,  1 idcode,  0 callback
-446 Fri Apr 12 20:25:52 2024
-447 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.13M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 11 var,  12 idcode,  9 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  0 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-448 Fri Apr 12 20:25:52 2024
-449 sps_tcl_fsdbDumpvars_vd_main
-450 argv[0]: 1
-451 argv[1]: top_tb.u_FADD_N40.exp_close
-452 argv[2]: +all
-453 argv[3]: +trace_process
-454 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.exp_close).
-455 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.15M mem
-                   accu: 0.000 sys,  0.000 user,  0.15M mem
-              accu incr: 0.000 sys,  0.000 user,  0.15M mem
-
-          Count usage: 12 var,  13 idcode,  10 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-456 Fri Apr 12 20:25:52 2024
-457 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.15M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 12 var,  13 idcode,  10 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-458 Fri Apr 12 20:25:52 2024
-459 sps_tcl_fsdbDumpvars_vd_main
-460 argv[0]: 1
-461 argv[1]: top_tb.u_FADD_N40.exp_f
-462 argv[2]: +all
-463 argv[3]: +trace_process
-464 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.exp_f).
-465 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 13 var,  14 idcode,  11 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-466 Fri Apr 12 20:25:52 2024
-467 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 13 var,  14 idcode,  11 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-468 Fri Apr 12 20:25:52 2024
-469 sps_tcl_fsdbDumpvars_vd_main
-470 argv[0]: 1
-471 argv[1]: top_tb.u_FADD_N40.exp_far
-472 argv[2]: +all
-473 argv[3]: +trace_process
-474 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.exp_far).
-475 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 14 var,  15 idcode,  12 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-476 Fri Apr 12 20:25:52 2024
-477 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 14 var,  15 idcode,  12 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-478 Fri Apr 12 20:25:52 2024
-479 sps_tcl_fsdbDumpvars_vd_main
-480 argv[0]: 1
-481 argv[1]: top_tb.u_FADD_N40.diff_abs
-482 argv[2]: +all
-483 argv[3]: +trace_process
-484 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.diff_abs).
-485 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 15 var,  16 idcode,  13 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-486 Fri Apr 12 20:25:52 2024
-487 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 15 var,  16 idcode,  13 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-488 Fri Apr 12 20:25:52 2024
-489 sps_tcl_fsdbDumpvars_vd_main
-490 argv[0]: 1
-491 argv[1]: top_tb.u_FADD_N40.diff_a_sub_b
-492 argv[2]: +all
-493 argv[3]: +trace_process
-494 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.diff_a_sub_b).
-495 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 16 var,  17 idcode,  14 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-496 Fri Apr 12 20:25:52 2024
-497 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.060 sys,  0.060 user,  319.28M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 16 var,  17 idcode,  14 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-498 Fri Apr 12 20:25:52 2024
-499 sps_tcl_fsdbDumpvars_vd_main
-500 argv[0]: 1
-501 argv[1]: $unit
-502 argv[2]: +all
-503 argv[3]: +trace_process
-504 *Verdi* : Begin traversing the scope ($unit), layer (1).
-505 *Verdi* : Enable +trace_process and +all dumping.
-506 *Verdi* : End of traversing.
-507 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.010 sys,  0.000 user,  1.19M mem
-                   accu: 0.010 sys,  0.000 user,  1.19M mem
-              accu incr: 0.010 sys,  0.000 user,  1.19M mem
-
-          Count usage: 19 var,  20 idcode,  17 callback
-                 incr: 3 var,  3 idcode,  3 callback
-                 accu: 3 var,  3 idcode,  3 callback
-            accu incr: 3 var,  3 idcode,  3 callback
-508 Fri Apr 12 20:25:52 2024
-509 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.010 sys,  0.000 user,  1.19M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 19 var,  20 idcode,  17 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 3 var,  3 idcode,  3 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-510 Fri Apr 12 20:25:52 2024
-511 sps_tcl_fsdbDumpvars_vd_main
-512 argv[0]: 1
-513 argv[1]: top_tb.u_FADD_N40.diff_b_sub_a
-514 argv[2]: +all
-515 argv[3]: +trace_process
-516 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.diff_b_sub_a).
-517 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 20 var,  21 idcode,  18 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-518 Fri Apr 12 20:25:52 2024
-519 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 20 var,  21 idcode,  18 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-520 Fri Apr 12 20:25:52 2024
-521 sps_tcl_fsdbDumpvars_vd_main
-522 argv[0]: 1
-523 argv[1]: top_tb.u_FADD_N40.elarge_op
-524 argv[2]: +all
-525 argv[3]: +trace_process
-526 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.elarge_op).
-527 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 21 var,  22 idcode,  19 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-528 Fri Apr 12 20:25:52 2024
-529 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 21 var,  22 idcode,  19 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-530 Fri Apr 12 20:25:52 2024
-531 sps_tcl_fsdbDumpvars_vd_main
-532 argv[0]: 1
-533 argv[1]: top_tb.u_FADD_N40.esmall_op
-534 argv[2]: +all
-535 argv[3]: +trace_process
-536 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.esmall_op).
-537 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 22 var,  23 idcode,  20 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-538 Fri Apr 12 20:25:52 2024
-539 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 22 var,  23 idcode,  20 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-540 Fri Apr 12 20:25:52 2024
-541 sps_tcl_fsdbDumpvars_vd_main
-542 argv[0]: 1
-543 argv[1]: top_tb.u_FADD_N40.close_result
-544 argv[2]: +all
-545 argv[3]: +trace_process
-546 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.close_result).
-547 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 23 var,  24 idcode,  21 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-548 Fri Apr 12 20:25:52 2024
-549 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 23 var,  24 idcode,  21 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-550 Fri Apr 12 20:25:52 2024
-551 sps_tcl_fsdbDumpvars_vd_main
-552 argv[0]: 1
-553 argv[1]: top_tb.u_FADD_N40.far_result
-554 argv[2]: +all
-555 argv[3]: +trace_process
-556 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.far_result).
-557 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 24 var,  25 idcode,  22 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-558 Fri Apr 12 20:25:52 2024
-559 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 24 var,  25 idcode,  22 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-560 Fri Apr 12 20:25:52 2024
-561 sps_tcl_fsdbDumpvars_vd_main
-562 argv[0]: 1
-563 argv[1]: top_tb.u_FADD_N40.exp_a_lt_b
-564 argv[2]: +all
-565 argv[3]: +trace_process
-566 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.exp_a_lt_b).
-567 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 25 var,  26 idcode,  23 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-568 Fri Apr 12 20:25:52 2024
-569 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 25 var,  26 idcode,  23 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-570 Fri Apr 12 20:25:52 2024
-571 sps_tcl_fsdbDumpvars_vd_main
-572 argv[0]: 1
-573 argv[1]: top_tb.u_FADD_N40.exp_a_neq_b
-574 argv[2]: +all
-575 argv[3]: +trace_process
-576 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.exp_a_neq_b).
-577 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 26 var,  27 idcode,  24 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-578 Fri Apr 12 20:25:52 2024
-579 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 26 var,  27 idcode,  24 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-580 Fri Apr 12 20:25:52 2024
-581 sps_tcl_fsdbDumpvars_vd_main
-582 argv[0]: 1
-583 argv[1]: top_tb.u_FADD_N40.sign_diff
-584 argv[2]: +all
-585 argv[3]: +trace_process
-586 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.sign_diff).
-587 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 27 var,  28 idcode,  25 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-588 Fri Apr 12 20:25:52 2024
-589 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 27 var,  28 idcode,  25 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-590 Fri Apr 12 20:25:52 2024
-591 sps_tcl_fsdbDumpvars_vd_main
-592 argv[0]: 1
-593 argv[1]: top_tb.u_FADD_N40.path_sel
-594 argv[2]: +all
-595 argv[3]: +trace_process
-596 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.path_sel).
-597 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 28 var,  29 idcode,  26 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-598 Fri Apr 12 20:25:52 2024
-599 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 28 var,  29 idcode,  26 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-600 Fri Apr 12 20:25:52 2024
-601 sps_tcl_fsdbDumpvars_vd_main
-602 argv[0]: 1
-603 argv[1]: top_tb.u_FADD_N40.far_sign
-604 argv[2]: +all
-605 argv[3]: +trace_process
-606 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.far_sign).
-607 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 29 var,  30 idcode,  27 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-608 Fri Apr 12 20:25:52 2024
-609 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 29 var,  30 idcode,  27 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-610 Fri Apr 12 20:25:52 2024
-611 sps_tcl_fsdbDumpvars_vd_main
-612 argv[0]: 1
-613 argv[1]: top_tb.u_FADD_N40.close_sign
-614 argv[2]: +all
-615 argv[3]: +trace_process
-616 *Verdi* : Dumping the signal (top_tb.u_FADD_N40.close_sign).
-617 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 30 var,  31 idcode,  28 callback
-                 incr: 1 var,  1 idcode,  1 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 1 var,  1 idcode,  1 callback
-618 Fri Apr 12 20:25:52 2024
-619 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.070 sys,  0.060 user,  320.47M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.000 user,  0.00M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 30 var,  31 idcode,  28 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 1 var,  1 idcode,  1 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-620 Fri Apr 12 20:25:52 2024
-621 sps_tcl_fsdbDumpflush_vd_main
-622 *Verdi* : Flush all FSDB Files at 0 ps.
-623 sps_tcl_fsdbDumpClassObject at 0
-624 argv[0]: $unit::f41_sequence@1.f_trans_1
-625 sps_tcl_fsdbDumpClassObject at 0
-626 argv[0]: $unit::f_transaction@78.D_ZERO_FLAG
-627 sps_tcl_fsdbDumpflush_vd_main
-628 *Verdi* : Flush all FSDB Files at 0 ps.
-629 sps_tcl_fsdbDumpflush_vd_main
-630 *Verdi* : Flush all FSDB Files at 0 ps.
-631 sps_call_fsdbDumpClassObjectByFile at 0 : /usr/synopsys/vcs/O-2018.09-SP2/etc/uvm-1.2/verdi/uvm_verdi_pli.svh(538)
-632 argv[0]: (handle) uvm_custom_install_verdi_recording.\uvm_verdi_pli::dump_comp_object_by_file .st_file_name
-633 *Verdi* : Begin dumping the Class Object by file (/usr/synopsys/vcs/O-2018.09-SP2/etc/uvm-1.2/verdi/component.config).
-634 *Verdi* : End of class object dumping.
-635 sps_call_fsdbDumpfile_main at 0 : top_tb.sv(51)
-636 argv[0]: (tb.fsdb)
-637 sps_call_fsdbDumpvars_vd_main at 0 : top_tb.sv(52)
-638 argv[0]: (0)
-639 *Verdi* : Begin traversing the scopes, layer (0).
-640 *Verdi* : End of traversing.
-641 pliAppHDL_DumpVarComplete traverse var: profile - 
-          CPU/Mem usage: 0.080 sys,  0.160 user,  335.81M mem
-                   incr: 0.000 sys,  0.010 user,  0.18M mem
-                   accu: 0.000 sys,  0.010 user,  0.18M mem
-              accu incr: 0.000 sys,  0.010 user,  0.18M mem
-
-          Count usage: 1059 var,  1049 idcode,  842 callback
-                 incr: 888 var,  822 idcode,  814 callback
-                 accu: 888 var,  822 idcode,  814 callback
-            accu incr: 888 var,  822 idcode,  814 callback
-642 Fri Apr 12 20:25:58 2024
-643 pliAppHDL_DumpVarComplete: profile - 
-          CPU/Mem usage: 0.080 sys,  0.160 user,  335.81M mem
-                   incr: 0.000 sys,  0.000 user,  0.00M mem
-                   accu: 0.000 sys,  0.010 user,  0.18M mem
-              accu incr: 0.000 sys,  0.000 user,  0.00M mem
-
-          Count usage: 1059 var,  1049 idcode,  842 callback
-                 incr: 0 var,  0 idcode,  0 callback
-                 accu: 888 var,  822 idcode,  814 callback
-            accu incr: 0 var,  0 idcode,  0 callback
-644 Fri Apr 12 20:25:58 2024
-645 sps_tcl_fsdbDumpflush_vd_main
-646 *Verdi* : Flush all FSDB Files at 1,205,000 ps.
-647 End of simulation at 1205000
-648 Fri Apr 12 20:34:20 2024
-649 Begin FSDB profile info:
-650 FSDB Writer : bc1(885) bcn(15059) mtf/stf(0/5)
-FSDB Writer elapsed time : flush(0.050714) io wait(0.000000) theadpool wait(0.000000) target functin(0.000000)
+262 Elapsed time:    0:00:00    Thu Oct 24 00:34:42 2024
+263 User CPU time used: 0 seconds
+264 System CPU time used: 0 seconds
+265 End of simulation at 1205000
+266 Memory usage: 419.082 M
+267 Maximum resident set size: 150 MB
+268 Hard page faults: 913
+269 Soft page faults: 16418
+270 Elapsed time:    0:00:00    Thu Oct 24 00:34:42 2024
+271 User CPU time used: 0 seconds
+272 System CPU time used: 0 seconds
+273 Begin FSDB profile info:
+274 FSDB Writer : bc1(623) bcn(2150) mtf/stf(0/0)
+FSDB Writer elapsed time : flush(0.008467) io wait(0.000000) theadpool wait(0.000000)
 FSDB Writer cpu time : MT Compression : 0
-651 End FSDB profile info
-652 Parallel profile    -  Flush:42 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
-653                        ProduceTime:1.155131184 ConsumerTime:0.000000000 Buffer:64MB
-654 SimExit
-655 Sim process exit
+275 End FSDB profile info
+276 FSDB closed. Name: tb.fsdb Size: 35778
+277 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+278                      - BlockUsed:1 Acquire:2496 BufferUsed:35884
+279                      - Flush:3 Expand:0 ProducerWait:0 ConsumerWait:0
+280                      - MainProducerTime:0.302848000 TotalConsumerTime:0.000000000
+281                      - ElapsedTime:0.145534000
+282 Producer   0 profile - BlockUsed:1 Acquire:2496 BufferUsed:35884
+283 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
+284                      - BlockUsed:1 Acquire:2496 BufferUsed:35884
+285 SimExit
+286 Elapsed time:    0:00:00    Thu Oct 24 00:34:42 2024
+287 User CPU time used: 0 seconds
+288 System CPU time used: 0 seconds
+289 Sim process exit

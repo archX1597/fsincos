@@ -859,6 +859,31 @@ void novas_call_fsdbDumpClassObjectByFile(int data, int reason)
 void (*__vcs_pli_dummy_reference_novas_call_fsdbDumpClassObjectByFile)(int data, int reason) = novas_call_fsdbDumpClassObjectByFile;
 #endif /* __VCS_PLI_STUB_novas_call_fsdbDumpClassObjectByFile */
 
+/* PLI routine: $fsdbTrans_add_attribute_expand:call */
+#ifndef __VCS_PLI_STUB_novas_call_fsdbEvent_add_attribute_expand
+#define __VCS_PLI_STUB_novas_call_fsdbEvent_add_attribute_expand
+extern void novas_call_fsdbEvent_add_attribute_expand(int data, int reason);
+#pragma weak novas_call_fsdbEvent_add_attribute_expand
+void novas_call_fsdbEvent_add_attribute_expand(int data, int reason)
+{
+    static int _vcs_pli_stub_initialized_ = 0;
+    static void (*_vcs_pli_fp_)(int data, int reason) = NULL;
+    if (!_vcs_pli_stub_initialized_) {
+        _vcs_pli_stub_initialized_ = 1;
+        _vcs_pli_fp_ = (void (*)(int data, int reason)) dlsym(RTLD_NEXT, "novas_call_fsdbEvent_add_attribute_expand");
+        if (_vcs_pli_fp_ == NULL) {
+            _vcs_pli_fp_ = (void (*)(int data, int reason)) VCS_dlsymLookup("novas_call_fsdbEvent_add_attribute_expand");
+        }
+    }
+    if (_vcs_pli_fp_) {
+        _vcs_pli_fp_(data, reason);
+    } else {
+        vcsMsgReportNoSource1("PLI-DIFNF", "novas_call_fsdbEvent_add_attribute_expand");
+    }
+}
+void (*__vcs_pli_dummy_reference_novas_call_fsdbEvent_add_attribute_expand)(int data, int reason) = novas_call_fsdbEvent_add_attribute_expand;
+#endif /* __VCS_PLI_STUB_novas_call_fsdbEvent_add_attribute_expand */
+
 /* PLI routine: $ridbDump:call */
 #ifndef __VCS_PLI_STUB_novas_call_ridbDump
 #define __VCS_PLI_STUB_novas_call_ridbDump

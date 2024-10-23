@@ -1,0 +1,208 @@
+Command: /home/icvm/my_prj/Triangle_Design/Triangle_New_1/sim/DUAL_PORT_ENV/FADD_40_ENV/./simv -l sim.log
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Oct 24 00:34 2024
+UVM_INFO /export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test f_env...
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'tb.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+UVM_INFO ../UVM_ENV/f41_driver.sv(10) @ 0: uvm_test_top.i0_agt.drv [drv] build phase is called
+UVM_INFO ../UVM_ENV/f41_driver.sv(10) @ 0: uvm_test_top.i1_agt.drv [drv] build phase is called
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 25000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1319      
+  f41_exp8   integral       8     'h89       
+  frac32     integral       32    'hb36ec582 
+  frac36     integral       36    'hb36ec5823
+  sign       integral       1     'h1        
+  f64_value  real           64    -0.000000  
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 25000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 35000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 35000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 45000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1353      
+  f41_exp8   integral       8     'h9b       
+  frac32     integral       32    'ha6f4469c 
+  frac36     integral       36    'ha6f4469cf
+  sign       integral       1     'h1        
+  f64_value  real           64    -0.000000  
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 45000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 55000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 55000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 65000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1395      
+  f41_exp8   integral       8     'hb1       
+  frac32     integral       32    'hd1b6ec96 
+  frac36     integral       36    'hd1b6ec960
+  sign       integral       1     'h1        
+  f64_value  real           64    -0.000000  
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 65000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 75000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 75000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 85000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1435      
+  f41_exp8   integral       8     'hf5       
+  frac32     integral       32    'he18c98ab 
+  frac36     integral       36    'he18c98ab7
+  sign       integral       1     'h0        
+  f64_value  real           64    0.000860   
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 85000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 95000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 95000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 105000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1475      
+  f41_exp8   integral       8     'h98       
+  frac32     integral       32    'h89b40a33 
+  frac36     integral       36    'h89b40a331
+  sign       integral       1     'h0        
+  f64_value  real           64    0.000000   
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 105000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 115000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 115000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 125000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1515      
+  f41_exp8   integral       8     'ha6       
+  frac32     integral       32    'he7b4fb0c 
+  frac36     integral       36    'he7b4fb0c8
+  sign       integral       1     'h0        
+  f64_value  real           64    0.000000   
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 125000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 135000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 135000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 145000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1555      
+  f41_exp8   integral       8     'hdc       
+  frac32     integral       32    'hc54138d9 
+  frac36     integral       36    'hc54138d9a
+  sign       integral       1     'h1        
+  f64_value  real           64    -0.000000  
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 145000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 155000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 155000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 165000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1595      
+  f41_exp8   integral       8     'ha0       
+  frac32     integral       32    'hcefad779 
+  frac36     integral       36    'hcefad7799
+  sign       integral       1     'h0        
+  f64_value  real           64    0.000000   
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 165000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 175000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 175000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 185000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1631      
+  f41_exp8   integral       8     'hc0       
+  frac32     integral       32    'hb8ec7853 
+  frac36     integral       36    'hb8ec78530
+  sign       integral       1     'h0        
+  f64_value  real           64    0.000000   
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 185000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 195000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 195000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO ../UVM_ENV/ref_model.sv(118) @ 205000: uvm_test_top.rfmodel [ref_model] igonore the min op
+---------------------------------------------
+Name         Type           Size  Value      
+---------------------------------------------
+tr           f_transaction  -     @1671      
+  f41_exp8   integral       8     'hea       
+  frac32     integral       32    'h8ec325dc 
+  frac36     integral       36    'h8ec325dcb
+  sign       integral       1     'h0        
+  f64_value  real           64    0.000000   
+---------------------------------------------
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(40) @ 205000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get ref DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(46) @ 215000: uvm_test_top.f_scoreboard [f_scoreboard] SCB get DUT DATA
+UVM_INFO ../UVM_ENV/f_scoreboard.sv(52) @ 215000: uvm_test_top.f_scoreboard [f_scoreboard] cmp successfully
+UVM_INFO /export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 1205000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/base/uvm_report_server.svh(904) @ 1205000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   45
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[drv]     2
+[f_scoreboard]    30
+[ref_model]    10
+
+$finish called from file "/export/SoftWare/Synopsys/vcs/T-2022.06/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time              1205000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1205000 ps
+CPU Time:      0.290 seconds;       Data structure size:   0.7Mb
+Thu Oct 24 00:34:42 2024

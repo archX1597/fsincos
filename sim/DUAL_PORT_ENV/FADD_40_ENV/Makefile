@@ -6,7 +6,7 @@ findlist:
 
 compile:
 	vcs -full64      \
-	    -fsdb        \
+	    -debug_access \
 	    -sverilog    \
 	    -debug_acc+all -kdb \
 	    -timescale=1ns/1ps \
