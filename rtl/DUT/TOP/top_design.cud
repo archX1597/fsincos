@@ -1,0 +1,21 @@
+# The Compilation Unit Definition (CUD) is where files and folders that make the compilation unit are specified.
+# The following can be specified directly (without any flags):
+#    Verilog source files
+#    Other CUD files (this allows hierarchical structures)
+#    Folders (results in all of its member Verilog source files being added to the compilation unit)
+# Paths can be relative to project roots, relative to the working directory, or absolute.
+# Each path or command, should be in a separate line.
+# For content assistance which shows all available flags, type '-' in a new line outside the commented area, and press CTRL+SPACE.
+../COF_REC/cof.cud
+../FADD_36/f36.cud
+../FADD_40/f40.cud
+../FSUB/fsub.cud
+../MEM/mem.cud
+../Pre_MAP_Decode/pre.cud
+../REG/reg.cud
+../TOP/top.cud
+../Gen_Component/gen.cud
+./stage1.v
+./stage2.v
+./stage3.v
+./top.v

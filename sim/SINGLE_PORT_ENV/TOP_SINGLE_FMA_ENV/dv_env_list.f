@@ -1,0 +1,10 @@
+../UVM_ENV_V2/f41_if.sv
+../UVM_ENV_V2/f_transaction.sv
+../UVM_ENV_V2/f41_sequencer.sv
+../UVM_ENV_V2/f41_sequence.sv
+../UVM_ENV_V2/f41_driver.sv
+../UVM_ENV_V2/f41_monitor.sv
+../UVM_ENV_V2/f41_agent.sv
+../UVM_ENV_V2/f_scoreboard.sv
+../UVM_ENV_V2/ref_model.sv
+../UVM_ENV_V2/f_env.sv

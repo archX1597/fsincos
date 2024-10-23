@@ -1,0 +1,11 @@
+./f41_if.sv
+./f_transaction.sv
+./f41_sequencer.sv
+./virtual_sequencer.sv
+./f41_sequence.sv
+./f41_driver.sv
+./f41_monitor.sv
+./f41_agent.sv
+./f_scoreboard.sv
+./ref_model.sv
+./f_env.sv
